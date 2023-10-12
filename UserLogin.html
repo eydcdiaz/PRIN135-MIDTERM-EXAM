@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .login-form {
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background-color: #000000d0;
+      max-width: 300px;
+    }
+
+    .input-field {
+      margin: 10px 0;
+
+    }
+
+    .input-field input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .login-button {
+      background-color: #207e37;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .login-button:hover {
+      background-color: #2980b9;
+    }
+
+    .forgot-password {
+      text-decoration: none;
+      color: #3498db;
+      transition: color 0.3s;
+    }
+
+    .forgot-password:hover {
+      color: #2980b9;
+    }
+    label {
+  color: #bbbdbb;
+}
+body {
+  background-image: url('https://fastly.picsum.photos/id/122/1080/720.jpg?hmac=gUsRaOutSzxi2a11099vRGXja9-EnynWAAQW1z6RFCY');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+#signup-text {
+  color: #ffffff; 
+}
+#login-heading {
+  color: #ffffff; 
+  margin-left: 100px;
+  margin-right:100px;
+  margin-top: 5px;
+}
+
+
+
+  </style>
+</head>
+<body>
+  <div class="login-form">
+    <h1 id="login-heading">User Login</h1>
+    <div class="input-field">
+        <input type="text" placeholder="Enter your email" id="email-input">
+    </div>
+    <div class="input-field">
+      <input type="password" placeholder="Enter your password">
+    </div>
+    <button class="login-button">Login</button>
+    <p><a class="forgot-password" href="ForgotPassword.html">Forgot Password?</a></p>
+    <div class="form-group">
+        <input type="checkbox" id="remember-me" name="remember-me">
+        <label for="remember-me">Remember Me</label>
+      </div>
+      <p id="signup-text">Don't have an account? <a href="SignUp.html">Sign up here</a></p>
+    
+  </div>
+</body>
+</html>
